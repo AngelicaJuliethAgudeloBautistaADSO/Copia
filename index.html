@@ -10,8 +10,10 @@
 
 </head>
 <body>
+  <!-- menu -->
     <header class="header">
         <div class="contenedor header__menu">
+          <!-- logo -->
             <a href="">
                 <img src="logo.jpeg" alt="logo">
             </a>
@@ -32,7 +34,7 @@
                     </li>
                 </ul>
             </nav>
-
+            <!-- login -->
             <nav class="header__nav">
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -52,99 +54,144 @@
 
 
     <!-- seccion inicio -->
-
-    <section>
+    <section id="inicio">
         <div class="contenedor">
-            <h1>
-                lorem ipsum dolor
-            </h1>
-            <h2>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi unde voluptas earum esse distinctio ratione consectetur voluptatum maiores inventore accusamus!
-            </p>
-            <div>
-                <a href="">lets start</a>
-                <a href="">read more</a>
+
+
+          <!-- slider -->
+          <div class="slider">
+            <div class="slider__contenedor">
+              <div class="slider__informacion">
+                <h1 class="slider__titulo">
+                  ADSO <span class="titulo__flaco">2696521</span>
+               </h1>
+               <h2>
+                Analisis y desarrollo de sistemas de información               
+               </h2>
+               <p class="slider__parrafo">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi unde voluptas earum esse distinctio ratione consectetur voluptatum maiores inventore accusamus!
+               </p>
+               <div class="slider__botones">
+                  <a href="#" class="botonn">lets start</a>
+                  <a href="#" class="botonn botonn--blanco">read more</a>
+              </div>
             </div>
-        </div>
-        <div>
-            <button>
-                <i class="bi bi-arrow-left"></i>
+            <figure class="slider__imagen">
+              <img src="/estudiante.png" alt="pareja" class="slider__img">
+            </figure>
+           </div>
+           <div class="slider__accion">
+            <button class="accion__flecha">
+              <i class="bi bi-arrow-left"></i>
             </button>
-            <button>
-                <i class="bi bi-arrow-right"></i>
+            <button class="accion__flecha">
+              <i class="bi bi-arrow-right"></i>
             </button>
+          </div>
         </div>
+        
+      </div>
     </section>
 
-<!-- seccion banner -->
+<!-- banner negro -->
 
-    <section>
-        <div class="contenedor">
+    <section class="bg-black">
+      <div class="contenedor llamado">
             <p>
                 Lorem, ipsum.
             </p>
-        </div>
-        <div class="contenedor">
+        
+        <div class="contenedor llamado_fecha">
             <p>edition</p>
             <p>2022</p>
         </div>
+      </div>
     </section>
 
     <!-- seccion explore -->
 
     <section>
-        <div class="contenedor">
+        <div class="contenedor explore">
+          <!-- seccion uno -->
+          <div class="uno text">
             <p>explore</p>
-            <p>only courses</p>
-        </div>
-        <div class="contenedor">
+          </div>
+
+          <!-- seccion dos -->
+          <div class="dos">
             <figure>
-                <img src="" alt="persona">
+              <img src="/feliz.png" alt="persona">
             </figure>
             <button>
-                <i class="bi bi-arrow-down"></i>
+              <i class="bi bi-arrow-down"></i>
             </button>
-        </div>
-        <div class="contenedor">
+          </div>  
+
+          <!-- seccion tres -->
+          <div class="tres text">
+            <p>About</p>
+          </div> 
+
+          <!-- seccion cuatro -->
+          <div class="cuatro">
             <p>
-                about
+              Lorem, ipsum.
             </p>
-            <p>
-                online courses
-            </p>
-        </div>
+          </div>
+
+          <!-- seccion cinco -->
+          <div class="cinco"></div>
+
+          <!-- seccion sexto -->
+          <div class="sexto">
+            <p>Lorem, ipsum.</p>
+          </div>
+          <!-- seccion septimo -->
+          <div class="septimo text">
+            <p>Lorem, ipsum.</p>
+          </div>
+
+          <!-- seccion octavo -->
+          <div class="octavo"></div>
+
+          <!-- seccion noveno -->
+          <div class="noveno text">
+            Lorem, ipsum dolor.
+          </div>
+            
     </section>
 
     <!-- cards -->
 
-    <section>
-        <div class="contenedor">
-          <div>
-            <h1>level 1</h1>
-            <p>
+    <section >
+        <div class="contenedor contenedor_card">
+          <div class="card">
+            <h1 class="card__tittle">level 1</h1>
+            <p class="card__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vitae enim? Doloribus, dolor. Cumque rem ullam
               distinctio tenetur reiciendis perferendis.
             </p>
-            <a href="">Read More</a>
+            <a class="botonn" href="">Read More</a>
           </div>
-          <h1>level 2</h1>
-          <p>
+          <div class="card card--border">
+           <h1 class="card__tittle">level 2</h1>
+           <p class="card__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vitae enim? Doloribus, dolor. Cumque rem ullam
             distinctio
             tenetur reiciendis perferendis.
-          </p>
-          <a href="">Read More</a>
-  
-          <h1>level 3</h1>
-          <p>
+           </p>
+           <a class="botonn" href="">Read More</a> 
+          </div>
+          <div class="card">
+           <h1 class="card__tittle">level 3</h1>
+           <p class="card__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vitae enim? Doloribus, dolor. Cumque rem ullam
             distinctio
             tenetur reiciendis perferendis.
-          </p>
-          <a href="">Read More</a>
+           </p>
+           <a class="botonn" href="">Read More</a>  
+          </div>
+          
         </div>
         </div>
   
@@ -227,30 +274,112 @@
         </div>
     </section>
 
-    <!--  -->
+    <!-- testimonios -->
 
     <section>
-        <div >
-            <div class="contenedor">
+      <div class="contenedor">
+        <div>
+          <h1>
+            Lorem, ipsum dolor.
+          </h1>
+        </div>
+        <div>
           <div>
-            <h1>Lorem, ipsum dolor.</h1>
-          </div>
-          <div>
-            <div>
-              <img src="" alt="persona">
-            </div>
+            <img src="" alt="persona">
             <div>
               <div>
-                <p>
-                  nombre persona
-                </p>
+                <p>nombre persona</p>
                 <p>
                   fecha
                 </p>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quo inventore error libero incidunt
-                aspernatur fugiat quaerat beatae obcaecati doloribus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis sed alias laborum corporis
+                blanditiis illo tempora ratione, quos deleniti.
+              </p>
+              <div>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="" alt="persona">
+            <div>
+              <div>
+                <p>nombre persona</p>
+                <p>
+                  fecha
+                </p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis sed alias laborum corporis
+                blanditiis illo tempora ratione, quos deleniti.
+              </p>
+              <div>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="" alt="persona">
+            <div>
+              <div>
+                <p>nombre persona</p>
+                <p>fecha</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis sed alias laborum corporis
+                blanditiis illo tempora ratione, quos deleniti.
+              </p>
+              <div>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="" alt="persona">
+            <div>
+              <div>
+                <p>nombre persona</p>
+                <p>
+                  fecha
+                </p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis sed alias laborum corporis
+                blanditiis illo tempora ratione, quos deleniti.
               </p>
               <div>
                 <span>
@@ -272,132 +401,11 @@
             </div>
           </div>
         </div>
-        <div class="contenedor">
-          <div>
-            <h1>Lorem, ipsum dolor.</h1>
-          </div>
-          <div>
-            <div>
-              <img src="" alt="persona">
-            </div>
-            <div>
-              <div>
-                <p>
-                  nombre persona
-                </p>
-                <p>
-                  fecha
-                </p>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quo inventore error libero incidunt
-                aspernatur fugiat quaerat beatae obcaecati doloribus.
-              </p>
-              <div>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div  class="contenedor">
-          <div>
-            <h1>Lorem, ipsum dolor.</h1>
-          </div>
-          <div>
-            <div>
-              <img src="" alt="persona">
-            </div>
-            <div>
-              <div>
-                <p>
-                  nombre persona
-                </p>
-                <p>
-                  fecha
-                </p>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quo inventore error libero incidunt
-                aspernatur fugiat quaerat beatae obcaecati doloribus.
-              </p>
-              <div>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="contenedor">
-          <div>
-            <h1>Lorem, ipsum dolor.</h1>
-          </div>
-          <div>
-            <div>
-              <img src="" alt="persona">
-            </div>
-            <div>
-              <div>
-                <p>
-                  nombre persona
-                </p>
-                <p>
-                  fecha
-                </p>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quo inventore error libero incidunt
-                aspernatur fugiat quaerat beatae obcaecati doloribus.
-              </p>
-              <div>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-                <span>
-                  <i class="bi bi-star-fill"></i>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- testimonios -->
+
+      <!-- suscribe -->
 
       <div class="contenedor">
         <div>
@@ -422,8 +430,9 @@
       </div>
     </main>
 
-    <footer class="contenedor">
-        <div>
+    <footer >
+
+        <div class="contenedor">
             <div>
                 <h1>Lorem ipsum dolor sit amet.</h1>
                 <nav>

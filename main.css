@@ -3,23 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --header:90px;
+    --color-primary:#812181;
+}
 
 .body{
     background-color: rgb(206, 227, 245);
     font-size: 16px;
     font-family: "open sans", sans-serif;
 }
+.bg-black{
+    background-color: black;
+}
 .contenedor{
     max-width: 1600px;
     margin: 0 auto;
-    align-items: center;
 }
 .header{
-    background-color: rgb(247, 247, 247);
+    /* background-color: rgb(247, 247, 247); */
 }
 .header__menu{
+    height: var(--header);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header__nav{ 
 
@@ -38,6 +46,7 @@
     ;text-decoration: none;
     border-radius: 6px;
     font-weight: 800;
+    text-transform: uppercase;
 }
 .nav__link--secundario{
     background-color: black;
@@ -49,4 +58,217 @@
     border: none;
     font-size: 34px; 
     font-weight: 700;   
+}
+
+
+#inicio{
+    /* background-image: url("saludo.png"); 
+    background-repeat: no-repeat;
+    background-size: calc(100%);
+    height: calc(100vh - var(--header)); */
+    /* background-color: grey; */
+}
+
+.slider{
+    height: calc(100vh - var(--header));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .slider__contender{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .slider__iformacion{
+    flex: 1;
+    max-width: 620px;
+    margin: 0 20px;
+  }
+  
+  .slider__imagen{
+  
+  }
+  
+  .slider__img{
+    max-width: 720px;
+  }
+  
+  .slider__titulo{
+    font-size: 6rem;
+    padding-bottom: 30px;
+  }
+  
+  .titulo__flaco{
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+  .slider__parrafo{
+      line-height: 1.8;
+      color: #1c1c1c;
+      padding-top: 30px;
+  }
+  
+  .slider__botones{
+    display: flex;
+    gap: 1rem;
+    padding-top: 30px;
+  }
+  
+  .slider__accion{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .accion__flecha{
+    background-color: transparent;
+    color: #000;
+    border: none;
+    padding: 12px 26px; 
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  
+  .botonn{
+    background: #812181;
+    padding: 12px 24px;
+    color: #f2f2f2;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .botonn--blanco{
+    background-color: #f1f1f1;
+    color: #000;
+  }
+  
+
+/* ----------------------------
+---------banner nergo----------
+-------------------------------*/
+
+.llamado{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 700;
+    font-size: 20px ;
+    align-items: center;
+    padding: 30px 0;
+}
+.llamado_fecha{
+    color: white;
+    border: solid 1px #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* ------------------------------
+-------------EXPLORE-------------
+--------------------------------- */
+
+.explore{
+    display: grid;
+
+    grid-template: 
+    "uno       dos      tres" 300px
+    "cuatro    cinco      sexto" 300px
+    "septimo   octavo       noveno" 150px/ auto auto auto;
+}
+
+.text{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 32px;
+    /* background-color: aliceblue; */
+}
+
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* background-color: antiquewhite; */
+}
+.tres{
+    grid-area: tres;
+    /* background-color: aqua; */
+}
+.cuatro{
+    grid-area: cuatro;
+    rotate: -90deg;
+
+    /* background-color: aquamarine; */
+}
+.cinco{
+    grid-area: dos ;
+    display: n;
+    /* background-color: blueviolet; */
+}
+.sexto{
+    grid-area: sexto;
+    rotate: -90deg;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    /* background-color: brown; */
+}
+.septimo{
+    grid-area: septimo;
+    /* background-color: cadetblue; */
+}
+.octavo{
+    grid-area: octavo;
+    /* background-color: aqua; */
+}
+.noveno{
+    grid-area: noveno;
+}
+
+
+
+
+/* --------------------------------
+-------------card------------------
+----------------------------------- */
+.contenedor_card{
+    display: flex;
+    gap: 6rem;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    width: 300px;
+    border: solid 2px #a8a8a8;
+    padding: 22px;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0px 10px 0px #f4d7f4;
+}
+.card__tittle{
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px 0;
+}
+.card__text{
+    text-align: center;
+}
+.card--border{
+    border: solid 2px var(--color-primary);
 }
