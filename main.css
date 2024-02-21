@@ -272,3 +272,14 @@
 .card--border{
     border: solid 2px var(--color-primary);
 }
+
+/* --------------------------------
+-------------work------------------
+----------------------------------- */
+
+.contenedor__work{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
